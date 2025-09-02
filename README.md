@@ -1,74 +1,61 @@
-<h1 align="center">Lista de Tarefas - Aplicação Web</h1>
-<p align="center">Interface web para o sistema de gerenciamento de tarefas (To-Do List), desenvolvida com Angular.</p>
+# Frontend Web - Projeto Lista de Tarefas
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Angular-20-red?style=for-the-badge&logo=angular" alt="Angular 20">
-  <img src="https://img.shields.io/badge/TypeScript-5.9-blue?style=for-the-badge&logo=typescript" alt="TypeScript">
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
 </p>
 
-<details>
-  <summary><strong>📝 Sobre o Projeto</strong></summary>
-  <br>
-  Esta é a interface de usuário (Frontend) da aplicação "Lista de Tarefas". Ela consome a API REST para fornecer uma experiência interativa, permitindo que o usuário gerencie suas tarefas de forma visual e intuitiva.
+Este repositório contém o cliente web para a aplicação de Lista de Tarefas. A interface foi construída com **Angular** e atua como o frontend principal, consumindo os dados da **API REST** central.
 
-  O projeto foi desenvolvido seguindo o tutorial "Projeto Aplicação Full Stack" do professor Ricardo Tec.
-</details>
+**Importante:** Esta aplicação é o cliente do sistema e requer que a **API Backend** esteja em execução para funcionar corretamente.
 
-## 🏛️ Arquitetura da Solução
+* **Link para a API Backend:** `https://github.com/RafaelSilvaGomes/lista-tarefas-api`
 
-Este projeto corresponde à API (Backend) da aplicação "Lista de Tarefas". A solução completa é modularizada em três repositórios independentes para garantir a separação de responsabilidades.
+---
 
-* **Frontend (Esta Aplicação):** Interface web desenvolvida com Angular que consome os dados da API.
-* **Backend (API REST):** API RESTful desenvolvida com Spring Boot que serve como o núcleo da aplicação.
-    * ➡️ **Link para o repositório:** `https://github.com/ZagoGiovanni/Projeto-Java-Spring-API`
-* **Desktop:** Aplicação de desktop (Desktop).
-    * ➡️ **Link para o repositório:** `https://github.com/ZagoGiovanni/Projeto-Java-Spring-Desktop`
+### Tecnologias Essenciais
 
-## 💻 Tecnologias Utilizadas
+* **Framework:** Angular
+* **Linguagem:** TypeScript
+* **Marcação e Estilização:** HTML / CSS
+* **Gerenciador de Pacotes:** Node.js e NPM
 
-* **Linguagem:** Java 21
-* **Framework:** Spring Boot 3
-* **Banco de Dados:**
-    * H2 (Ambiente de Desenvolvimento)
-    * PostgreSQL (Ambiente de Produção)
-* **Gerenciamento de Dependências:** Maven
-* **Mapeamento Objeto-Relacional:** Spring Data JPA / Hibernate
+---
 
-## 🚀 Como Executar o Projeto
+### Como Iniciar a Aplicação
 
-### Pré-requisitos
+Para executar o projeto localmente, siga estes passos simples.
 
-Antes de começar, você vai precisar ter instalado em sua máquina:
-* [Node.js e npm](https://nodejs.org/en/) - Versão LTS.
-* [Angular CLI](https://angular.dev/cli) - Versão 20 ou superior.
-* [Git](https://git-scm.com/downloads).
-
-### Rodando a Aplicação
+**Pré-requisitos:**
+* Node.js e Angular CLI instalados globalmente.
+* A **API Backend** deve estar rodando em `http://localhost:8080`.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/ZagoGiovanni/Projeto-Java-Spring-Web.git]
+    git clone [https://github.com/RafaelSilvaGomes/lista-tarefas-web.git](https://github.com/RafaelSilvaGomes/lista-tarefas-web.git)
     ```
 
-2.  **Navegue até a pasta do projeto:**
+2.  **Acesse a pasta do projeto:**
     ```bash
-    cd lista-tarefas-api
+    cd lista-tarefas-web
     ```
 
-3.  **Configure o banco de dados** no arquivo `src/main/resources/application.properties`.
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
 4.  **Execute a aplicação:**
     ```bash
-    mvn spring-boot:run
+    ng serve --open
     ```
 
-5.  A API estará disponível em `http://localhost:8080`.
+A aplicação estará disponível no seu navegador em `http://localhost:4200`.
 
-## Autor
+---
 
-**Giovanni dos Santos Zago**
+### Autor
 
-- LinkedIn: `https://www.linkedin.com/in/giovanni-zago-058891290/`
-- GitHub: `https://github.com/ZagoGiovanni`
+**Vitor Hugo Gomes Gouveia**
