@@ -11,7 +11,7 @@ Este repositório contém o cliente web para a aplicação de Lista de Tarefas. 
 
 **Importante:** Esta aplicação é o cliente do sistema e requer que a **API Backend** esteja em execução para funcionar corretamente.
 
-* **Link para a API Backend:** `https://github.com/RafaelSilvaGomes/lista-tarefas-api`
+* **Link para a API Backend:** `https://github.com/Vitor-gomes919/listadetarefas-API`
 
 ---
 
