@@ -34,7 +34,7 @@ Para executar o projeto localmente, siga estes passos simples.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone []https://github.com/Vitor-gomes919/listadetarefas-WEB.git
+    git clone https://github.com/Vitor-gomes919/listadetarefas-WEB.git
     ```
 
 2.  **Acesse a pasta do projeto:**
